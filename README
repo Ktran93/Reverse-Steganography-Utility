@@ -1,0 +1,13 @@
+Kevin Tran
+
+Encode and Decode functions written and ran in python 3.5.2
+Decode works by reading the rgb values and adding the values to a list that is converted from binary to decimal.
+The decimal is then converted to the amount of pixels needed to read, values read are added to a new list and then values are converted from binary to ascii.
+
+Encode takes in user input as a string, gets the length of the string and converts that length into binary to be written to the image.
+The same function takes place for the actual string.
+
+
+Run decode.py and supply a file name to decode the message.
+
+Run encode.py and supply a string to write and a name for the image that will be created at the end of the program.
